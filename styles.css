@@ -1,0 +1,292 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+}
+
+.note {
+    background-color: #fff9c4;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    border-left: 6px solid #ffd740;
+}
+
+.note p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.delete {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.delete:hover {
+    color: darkred;
+} */
+
+/* **********************************************V2*********************************************** */
+/* body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 2px solid #fda085;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+textarea:focus {
+    border-color: #f6d365;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background: linear-gradient(135deg, #5cb85c 0%, #4cae4c 100%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #4cae4c 0%, #5cb85c 100%);
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+}
+
+.note {
+    background: linear-gradient(135deg, #fff9c4 0%, #ffecb3 100%);
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    border-left: 6px solid #ffd740;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.note p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.delete {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.delete:hover {
+    color: darkred;
+} */
+/* **********************************************V3*********************************************** */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    margin: 0;
+    padding: 20px;
+    transition: background 0.5s ease;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    animation: slideInDown 0.8s ease-in-out;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 2px solid #c3cfe2;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+textarea:focus {
+    box-shadow: 0 0 10px rgba(0, 150, 255, 0.5);
+}
+
+button {
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #4cae4c;
+    transform: scale(1.05);
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.note {
+    background-color: #fff9c4;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    border-left: 6px solid #ffd740;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.note:hover {
+    transform: translateX(10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.note p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.delete {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.delete:hover {
+    color: darkred;
+    transform: scale(1.2);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInDown {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
